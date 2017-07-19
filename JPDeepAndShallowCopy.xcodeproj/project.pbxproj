@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274ED9B11F1F57670021FEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9B01F1F57670021FEA6 /* main.m */; };
+		274ED9B41F1F57670021FEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9B31F1F57670021FEA6 /* AppDelegate.m */; };
+		274ED9B71F1F57670021FEA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9B61F1F57670021FEA6 /* ViewController.m */; };
+		274ED9BA1F1F57670021FEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274ED9B81F1F57670021FEA6 /* Main.storyboard */; };
+		274ED9BD1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9BB1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodeld */; };
+		274ED9BF1F1F57670021FEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274ED9BE1F1F57670021FEA6 /* Assets.xcassets */; };
+		274ED9C21F1F57670021FEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274ED9C01F1F57670021FEA6 /* LaunchScreen.storyboard */; };
+		274ED9CD1F1F57670021FEA6 /* JPDeepAndShallowCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9CC1F1F57670021FEA6 /* JPDeepAndShallowCopyTests.m */; };
+		274ED9D81F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ED9D71F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274ED9C91F1F57670021FEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274ED9A41F1F57670021FEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274ED9AB1F1F57670021FEA6;
+			remoteInfo = JPDeepAndShallowCopy;
+		};
+		274ED9D41F1F57670021FEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274ED9A41F1F57670021FEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274ED9AB1F1F57670021FEA6;
+			remoteInfo = JPDeepAndShallowCopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274ED9AC1F1F57670021FEA6 /* JPDeepAndShallowCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPDeepAndShallowCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274ED9B01F1F57670021FEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		274ED9B21F1F57670021FEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		274ED9B31F1F57670021FEA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		274ED9B51F1F57670021FEA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		274ED9B61F1F57670021FEA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		274ED9B91F1F57670021FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274ED9BC1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPDeepAndShallowCopy.xcdatamodel; sourceTree = "<group>"; };
+		274ED9BE1F1F57670021FEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274ED9C11F1F57670021FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		274ED9C31F1F57670021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274ED9C81F1F57670021FEA6 /* JPDeepAndShallowCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPDeepAndShallowCopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274ED9CC1F1F57670021FEA6 /* JPDeepAndShallowCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPDeepAndShallowCopyTests.m; sourceTree = "<group>"; };
+		274ED9CE1F1F57670021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274ED9D31F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPDeepAndShallowCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274ED9D71F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPDeepAndShallowCopyUITests.m; sourceTree = "<group>"; };
+		274ED9D91F1F57670021FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274ED9A91F1F57670021FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9C51F1F57670021FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9D01F1F57670021FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274ED9A31F1F57670021FEA6 = {
+			isa = PBXGroup;
+			children = (
+				274ED9AE1F1F57670021FEA6 /* JPDeepAndShallowCopy */,
+				274ED9CB1F1F57670021FEA6 /* JPDeepAndShallowCopyTests */,
+				274ED9D61F1F57670021FEA6 /* JPDeepAndShallowCopyUITests */,
+				274ED9AD1F1F57670021FEA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274ED9AD1F1F57670021FEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274ED9AC1F1F57670021FEA6 /* JPDeepAndShallowCopy.app */,
+				274ED9C81F1F57670021FEA6 /* JPDeepAndShallowCopyTests.xctest */,
+				274ED9D31F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274ED9AE1F1F57670021FEA6 /* JPDeepAndShallowCopy */ = {
+			isa = PBXGroup;
+			children = (
+				274ED9B21F1F57670021FEA6 /* AppDelegate.h */,
+				274ED9B31F1F57670021FEA6 /* AppDelegate.m */,
+				274ED9B51F1F57670021FEA6 /* ViewController.h */,
+				274ED9B61F1F57670021FEA6 /* ViewController.m */,
+				274ED9B81F1F57670021FEA6 /* Main.storyboard */,
+				274ED9BE1F1F57670021FEA6 /* Assets.xcassets */,
+				274ED9C01F1F57670021FEA6 /* LaunchScreen.storyboard */,
+				274ED9C31F1F57670021FEA6 /* Info.plist */,
+				274ED9BB1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodeld */,
+				274ED9AF1F1F57670021FEA6 /* Supporting Files */,
+			);
+			path = JPDeepAndShallowCopy;
+			sourceTree = "<group>";
+		};
+		274ED9AF1F1F57670021FEA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274ED9B01F1F57670021FEA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274ED9CB1F1F57670021FEA6 /* JPDeepAndShallowCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				274ED9CC1F1F57670021FEA6 /* JPDeepAndShallowCopyTests.m */,
+				274ED9CE1F1F57670021FEA6 /* Info.plist */,
+			);
+			path = JPDeepAndShallowCopyTests;
+			sourceTree = "<group>";
+		};
+		274ED9D61F1F57670021FEA6 /* JPDeepAndShallowCopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				274ED9D71F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.m */,
+				274ED9D91F1F57670021FEA6 /* Info.plist */,
+			);
+			path = JPDeepAndShallowCopyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274ED9AB1F1F57670021FEA6 /* JPDeepAndShallowCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274ED9DC1F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopy" */;
+			buildPhases = (
+				274ED9A81F1F57670021FEA6 /* Sources */,
+				274ED9A91F1F57670021FEA6 /* Frameworks */,
+				274ED9AA1F1F57670021FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPDeepAndShallowCopy;
+			productName = JPDeepAndShallowCopy;
+			productReference = 274ED9AC1F1F57670021FEA6 /* JPDeepAndShallowCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274ED9C71F1F57670021FEA6 /* JPDeepAndShallowCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274ED9DF1F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopyTests" */;
+			buildPhases = (
+				274ED9C41F1F57670021FEA6 /* Sources */,
+				274ED9C51F1F57670021FEA6 /* Frameworks */,
+				274ED9C61F1F57670021FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274ED9CA1F1F57670021FEA6 /* PBXTargetDependency */,
+			);
+			name = JPDeepAndShallowCopyTests;
+			productName = JPDeepAndShallowCopyTests;
+			productReference = 274ED9C81F1F57670021FEA6 /* JPDeepAndShallowCopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		274ED9D21F1F57670021FEA6 /* JPDeepAndShallowCopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274ED9E21F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopyUITests" */;
+			buildPhases = (
+				274ED9CF1F1F57670021FEA6 /* Sources */,
+				274ED9D01F1F57670021FEA6 /* Frameworks */,
+				274ED9D11F1F57670021FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274ED9D51F1F57670021FEA6 /* PBXTargetDependency */,
+			);
+			name = JPDeepAndShallowCopyUITests;
+			productName = JPDeepAndShallowCopyUITests;
+			productReference = 274ED9D31F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274ED9A41F1F57670021FEA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "贾鹏";
+				TargetAttributes = {
+					274ED9AB1F1F57670021FEA6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EDG77N5CNZ;
+						ProvisioningStyle = Automatic;
+					};
+					274ED9C71F1F57670021FEA6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EDG77N5CNZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 274ED9AB1F1F57670021FEA6;
+					};
+					274ED9D21F1F57670021FEA6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EDG77N5CNZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 274ED9AB1F1F57670021FEA6;
+					};
+				};
+			};
+			buildConfigurationList = 274ED9A71F1F57670021FEA6 /* Build configuration list for PBXProject "JPDeepAndShallowCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274ED9A31F1F57670021FEA6;
+			productRefGroup = 274ED9AD1F1F57670021FEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274ED9AB1F1F57670021FEA6 /* JPDeepAndShallowCopy */,
+				274ED9C71F1F57670021FEA6 /* JPDeepAndShallowCopyTests */,
+				274ED9D21F1F57670021FEA6 /* JPDeepAndShallowCopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274ED9AA1F1F57670021FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ED9C21F1F57670021FEA6 /* LaunchScreen.storyboard in Resources */,
+				274ED9BF1F1F57670021FEA6 /* Assets.xcassets in Resources */,
+				274ED9BA1F1F57670021FEA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9C61F1F57670021FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9D11F1F57670021FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274ED9A81F1F57670021FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ED9B71F1F57670021FEA6 /* ViewController.m in Sources */,
+				274ED9B41F1F57670021FEA6 /* AppDelegate.m in Sources */,
+				274ED9B11F1F57670021FEA6 /* main.m in Sources */,
+				274ED9BD1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9C41F1F57670021FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ED9CD1F1F57670021FEA6 /* JPDeepAndShallowCopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274ED9CF1F1F57670021FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ED9D81F1F57670021FEA6 /* JPDeepAndShallowCopyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274ED9CA1F1F57670021FEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274ED9AB1F1F57670021FEA6 /* JPDeepAndShallowCopy */;
+			targetProxy = 274ED9C91F1F57670021FEA6 /* PBXContainerItemProxy */;
+		};
+		274ED9D51F1F57670021FEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274ED9AB1F1F57670021FEA6 /* JPDeepAndShallowCopy */;
+			targetProxy = 274ED9D41F1F57670021FEA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274ED9B81F1F57670021FEA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274ED9B91F1F57670021FEA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		274ED9C01F1F57670021FEA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274ED9C11F1F57670021FEA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274ED9DA1F1F57670021FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		274ED9DB1F1F57670021FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274ED9DD1F1F57670021FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		274ED9DE1F1F57670021FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		274ED9E01F1F57670021FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPDeepAndShallowCopy.app/JPDeepAndShallowCopy";
+			};
+			name = Debug;
+		};
+		274ED9E11F1F57670021FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPDeepAndShallowCopy.app/JPDeepAndShallowCopy";
+			};
+			name = Release;
+		};
+		274ED9E31F1F57670021FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPDeepAndShallowCopy;
+			};
+			name = Debug;
+		};
+		274ED9E41F1F57670021FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EDG77N5CNZ;
+				INFOPLIST_FILE = JPDeepAndShallowCopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzi.JPDeepAndShallowCopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPDeepAndShallowCopy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274ED9A71F1F57670021FEA6 /* Build configuration list for PBXProject "JPDeepAndShallowCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ED9DA1F1F57670021FEA6 /* Debug */,
+				274ED9DB1F1F57670021FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274ED9DC1F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ED9DD1F1F57670021FEA6 /* Debug */,
+				274ED9DE1F1F57670021FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274ED9DF1F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ED9E01F1F57670021FEA6 /* Debug */,
+				274ED9E11F1F57670021FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274ED9E21F1F57670021FEA6 /* Build configuration list for PBXNativeTarget "JPDeepAndShallowCopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ED9E31F1F57670021FEA6 /* Debug */,
+				274ED9E41F1F57670021FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		274ED9BB1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				274ED9BC1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodel */,
+			);
+			currentVersion = 274ED9BC1F1F57670021FEA6 /* JPDeepAndShallowCopy.xcdatamodel */;
+			path = JPDeepAndShallowCopy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 274ED9A41F1F57670021FEA6 /* Project object */;
+}
