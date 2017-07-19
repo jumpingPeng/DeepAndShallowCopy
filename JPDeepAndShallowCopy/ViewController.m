@@ -57,7 +57,7 @@
 - (void)test1{
     
     NSLog(@"非容器类不可变对象拷贝NSString");
-    NSString *str = @"ludashi";
+    NSString *str = @"jumpingjumping";
     NSLog(@" str = %@,  init_str.retainCount   = %d", str, (int)str.retainCount);
     
     //把str通过retain方式把值赋给str1
@@ -83,10 +83,10 @@
     
     /*
      2015-07-19 17:28:44.662 JPDeepAndShallowCopy[899:23726] 非容器类不可变对象拷贝NSString
-     2015-07-19 17:28:44.662 JPDeepAndShallowCopy[899:23726]  str = ludashi,  init_str.retainCount   = -1
-     2015-07-19 17:28:44.662 JPDeepAndShallowCopy[899:23726] str1 = ludashi, retain_str1.retainCount = -1
-     2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str2 = ludashi, copy_str2.retainCount   = -1
-     2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str3 = ludashi, mutableCopy_str3.retainCount = 1
+     2015-07-19 17:28:44.662 JPDeepAndShallowCopy[899:23726]  str = jumpingjumping,  init_str.retainCount   = -1
+     2015-07-19 17:28:44.662 JPDeepAndShallowCopy[899:23726] str1 = jumpingjumping, retain_str1.retainCount = -1
+     2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str2 = jumpingjumping, copy_str2.retainCount   = -1
+     2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str3 = jumpingjumping, mutableCopy_str3.retainCount = 1
      2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726]  str-p = 0x10bfee0e0
      2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str1-p = 0x10bfee0e0
      2015-07-19 17:28:44.663 JPDeepAndShallowCopy[899:23726] str2-p = 0x10bfee0e0
@@ -119,7 +119,7 @@
 - (void)test2{
     
     NSLog(@"非容器类的可变对象拷贝");
-    NSMutableString *s = [NSMutableString stringWithFormat:@"ludashi"];
+    NSMutableString *s = [NSMutableString stringWithFormat:@"jumpingjumping"];
     NSLog(@" s = %@,     init_s_retainCount = %d", s, (int)s.retainCount);
     
     //把s通过retain的方式把值 赋给s1;
@@ -144,10 +144,10 @@
     
     /**
      2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] 非容器类的可变对象拷贝
-     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239]  s = ludashi,     init_s_retainCount = 1
-     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s1 = ludashi,  retain_s1_retainCount = 2
-     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s2 = ludashi,    copy_s2_retianCount = -1
-     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s3 = ludashi, mutable_s3_retainCount = 1
+     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239]  s = jumpingjumping,     init_s_retainCount = 1
+     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s1 = jumpingjumping,  retain_s1_retainCount = 2
+     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s2 = jumpingjumping,    copy_s2_retianCount = -1
+     2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s3 = jumpingjumping, mutable_s3_retainCount = 1
      2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239]  s_p = 0x618000263440
      2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s1_p = 0x618000263440
      2015-07-19 17:31:47.807 JPDeepAndShallowCopy[944:27239] s2_p = 0xa6968736164756c7
@@ -182,7 +182,7 @@
  */
 - (void)test3{
     
-    NSMutableString *string = [NSMutableString stringWithFormat:@"ludashi"];
+    NSMutableString *string = [NSMutableString stringWithFormat:@"jumpingjumping"];
     //第二种：容器类不可变对象拷贝
     NSLog(@"容器类不可变对象拷贝");
     NSArray *array = [NSArray arrayWithObjects:string, @"b", nil];
@@ -218,10 +218,10 @@
     
     /**
      2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] 容器类不可变对象拷贝
-     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311]  array[0] = ludashi,    init_array.retainCount = 1
-     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array1[0] = ludashi, retain_array1.retainCount = 2
-     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array2[0] = ludashi,    copy_array.retainCount = 3
-     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array3[0] = ludashi, mutableCopy_array3.retainCount = 1
+     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311]  array[0] = jumpingjumping,    init_array.retainCount = 1
+     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array1[0] = jumpingjumping, retain_array1.retainCount = 2
+     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array2[0] = jumpingjumping,    copy_array.retainCount = 3
+     2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] array3[0] = jumpingjumping, mutableCopy_array3.retainCount = 1
      2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311] 分别输出每个地址
      2015-07-19 17:42:53.482 JPDeepAndShallowCopy[1020:33311]  array_p = 0x60800002cf20
      2015-07-19 17:42:53.483 JPDeepAndShallowCopy[1020:33311] array1_p = 0x60800002cf20
@@ -333,7 +333,7 @@
 - (void)test5{
     
     //新建一个测试字符串
-    NSMutableString * str = [NSMutableString stringWithFormat:@"ludashi__"];
+    NSMutableString * str = [NSMutableString stringWithFormat:@"jumpingjumping__"];
     
     //新建一个测试字典
     NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithCapacity:1];
